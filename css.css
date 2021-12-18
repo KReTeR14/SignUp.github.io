@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-image {
+    
+ /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(3px);
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+      font-family:cursive;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4 ); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+  }
+  ::-webkit-scrollbar{
+      width: 0%;
+  }
+  .input{
+      border-radius: 6px;
+      border: none;
+      height:25px;
+  }
+  .button{
+      width: 25%;
+      border-radius: 10px;
+      
+      background-color: aqua;
+      height: 35px;
+      font-weight: bold;
+      font-family:cursive;
+      
+  }
+  .fa-google:hover{
+      color:orangered;
+      cursor: pointer;
+      size: 1rem;
+  }
+  .fa-facebook:hover{
+    color:aqua;
+    cursor: pointer;
+    size: 1rem;
+}
+.fa-twitter:hover{
+    color: yellowgreen;
+    cursor: pointer;
+    size: 1rem;
+}
+.back{
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.fa-home{
+    float: left;
+    color: white;
+}
+button.signup{
+    width: 20%;
+      border:  solid #f1f1f1;
+      background: none;
+      color: white;
+      height: 30px;
+      font-weight: bold;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size:10px;
+}
+button.signup a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+button:hover{
+    cursor: pointer;
+
+}
+p sup{
+    cursor: pointer;
+    font-size: 10px;
+}
